@@ -1,6 +1,6 @@
 let sidebar_navigation = document.getElementById('sidebar_navigation');
 
-let sidebar_navigation_bottom = document.getElementById('sidebar_buttom_menu');
+let sidebar_navigation_bottom = document.getElementById('sidebar_button_menu');
 
 sidebar_navigation_bottom.addEventListener('click', function () {
     if (sidebar_navigation.style.left == "" || sidebar_navigation.style.left == "-100%") {
@@ -22,6 +22,6 @@ global_menu_button.addEventListener('click', function () {
     global_navigation.style.left = "0";
 })
 
-global_close_buttom.addEventListener('click', function () {
+global_close_button.addEventListener('click', function () {
     global_navigation.style.left = "-120%";
 })
