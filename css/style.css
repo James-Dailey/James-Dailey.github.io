@@ -138,7 +138,7 @@ body {
   z-index: 3;
 }
 
-.sidebar_container .sidebar_buttom_menu:hover {
+.sidebar_container .sidebar_button_menu:hover {
   color: var(--brand-color);
   transition: 0.3s;
 }

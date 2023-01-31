@@ -14,11 +14,11 @@ sidebar_navigation_bottom.addEventListener('click', function () {
 })
 
 
-let global_menu_buttom = document.getElementById('global_menu_button')
+let global_menu_button = document.getElementById('global_menu_button')
 let global_navigation = document.getElementById('global_menu_items')
-let global_close_buttom = document.getElementById('global_menu_close_button')
+let global_close_button = document.getElementById('global_menu_close_button')
 
-global_menu_buttom.addEventListener('click', function () {
+global_menu_button.addEventListener('click', function () {
     global_navigation.style.left = "0";
 })
 
