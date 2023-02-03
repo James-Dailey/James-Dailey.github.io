@@ -70,7 +70,7 @@ body {
   object-position: top;
 }
 
-.sidebar_container .image .right_image_box {
+.sidebar_container .image .left_image_box {
   width: 70%;
   height: 100px;
   background-color: white;
