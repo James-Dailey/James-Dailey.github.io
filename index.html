@@ -1,237 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- CSS file -->
     <link rel="stylesheet" href="css/style.css">
-
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/brand.jpeg" type="image/x-icon">
-
     <!-- Fontawesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
           integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <title>James Dailey</title>
 </head>
-
 <body>
 <!-- Website Layout -->
-<div class="website_container">
-
+<ul class="website_container">
     <!-- Global Menu -->
     <div id="global_menu_button_container">
         <p class="site_title">James Dailey</p>
         <i class="fa fa-bars" id="global_menu_button"></i>
     </div>
-
     <ul id="global_menu_items">
         <div>
             <i class="fa fa-close" id="global_menu_close_button"></i>
             <li><a href="/"><i class="fa fa-home"></i> About</a></li>
             <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
-            <li><a href="services.html"><i class="fas fa-cog"></i> Projects</a></li>
+            <li><a href="services.html"><i class="fas fa-cog"></i> Services</a></li>
 
         </div>
     </ul>
-
     <!--x Global Menu x-->
-
     <!-- sidebar -->
     <div class="sidebar_container">
         <!-- Sidebar Image -->
         <div class="image">
-            <img src="img/profile.JPG" alt="Jimmy">
+            <img src="img/profile.JPG" alt="James Dailey">
             <div class="right_image_box"></div>
             <div class="left_image_box"></div>
         </div>
-
         <!-- sidebar Content -->
         <div class="sidebar_content">
-            <h1>James Dailey</h1>
-            <p>Web Developer and Data Analytics</p>
+
+            <h1>James(Jimmy) Dailey</h1>
+            <p>Web Developer</p>
             <!-- Social Medias -->
             <div class="social_media">
                 <a href="https://www.linkedin.com/in/james-dailey-84853678/"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/James-Dailey"><i class="fab fa-github"></i></a>
                 <a href="https://twitter.com/Jimmy_webnoob"><i class="fab fa-twitter"></i></a>
-                <a href="https://public.tableau.com/app/profile/james.a.dailey"><i class="fab fa-sparkles"></i></a>
             </div>
         </div>
-
-        <!-- Sidebar Button Menu -->
-        <div class="sidebar_button_menu" id="sidebar_button_menu">
+        <!-- Sidebar Buttom Menu -->
+        <div class="sidebar_buttom_menu" id="sidebar_buttom_menu">
             <i class="fa fa-bars" id="sidebar_menu_icon"></i>
         </div>
-
         <!-- Sidebar Navigation -->
         <ul class="sidebar_navigation" id="sidebar_navigation">
-            <li><a href="/">About</a></li>
-            <li><a href="resume.html" class="active">Resume</a></li>
-            <li><a href="services.html">Projects</a></li>
-
+            <li><a href="/" class="active">About</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="services.html">Services</a></li>
 
         </ul>
-
     </div>
     <!-- content -->
     <div class="content_container">
-        <!-- Resume Page -->
-        <div class="resume_page">
-            <h2 class="title">My <span>Resume</span></h2>
-            <div class="resume_container">
-                <!-- Experience container -->
-                <div class="left_resume">
-                    <h2 class="resume_title"><i class="fa fa-suitcase"></i> Work History</h2>
-                    <div class="resume_box">
-                        <span class="resume_date">2021 to Present</span>
-                        <p class="resume_box_title">Student</p>
-
-                        <p class="resume_company">Savvy Coders</p>
-                        <p class="resume_text">An intense 12 week program that prepared me for a career in Data Analytics. The bootcamp started in July and finished in October 2022, I used Python to scrape data from
-                            websites, utilized Excel and SQLite to clean and parse data, and Tableau to visualize the data, culminating in a capstone presentation.
-                        </p>
+        <!-- About Page -->
+        <div class="about_page">
+            <h2 class="title">About <span>Me</span></h2>
+            <div class="about_content">
+                <br class="about_text">Hi there! I'm Jimmy, and I'm a recent graduate of the Savvy Coders Data Analytics/Python, and Launchcode 101 bootcamp(s). I work on my coding skills every day, learning and applying myself to be the best web developer I can be. I am a lifetime learner
+                and absorb as much as humanly possible about languages and frameworks, as well as my own personal interests. I believe that I would be an asset to any organization, as I bring plenty
+                of "soft skills" gathered from my time in the hospitality industry. I have a work ethic that doesn't stop until the work is completed fully and
+                of the highest quality. I also know how to google search when I run into issues I don't fully understand, barring that, I am not afraid
+                to ask for help when I need to. Please reach out to me via email if you have questions.
+                I also do freelance work developing websites. I am authorized to work in the United States, and do not need sponsoring.
+                Please consider me for your organization, or future freelance projects. <br> Thank you for visiting my site, and I hope to work with you soon! </br>"
 
 
-                        <p class="resume_company">Launchcode 101</p>
-                        <p class="resume_text">A full stack web developer bootcamp that began in June 2021. I was exposed to languages
-                            and frameworks, and assigned projects with deadlines. Languages I worked with include HTML5/CSS3, Java, JavaScript, and Typescript.
-                            Frameworks include Angular, Bootstrap, Spring, and Express.
-                        </p>
-                    </div>
 
-                    <div class="resume_box">
-                        <span class="resume_date">2019</span>
-                        <p class="resume_box_title">Director of Culinary Services</p>
-                        <p class="resume_company">Riverstone Retirement Community</p>
-                        <p class="resume_text">Senior leadership position in a fast-paced, stressful environment, producing excellent service to
-                            the residents. I was responsible for approximately 20 team members, inventory control, budgeting, sanitation best practices,
-                            and many other facets of operating a professional kitchen.
-                        </p>
-                    </div>
-
-                    <div class="resume_box">
-                        <span class="resume_date">2013-2018</span>
-                        <p class="resume_box_title">Executive Chef</p>
-                        <p class="resume_company">Various restaurants</p>
-                        <p class="resume_text">Responsible for all aspects of a professional kitchen, including training and development of
-                            teammates to further their career goals, counseling, budgeting targets, and many other responsibilities.                          </p>
-                    </div>
-                </div>
-
-                <!-- Education Container -->
-                <div class="right_resume">
-                    <h2 class="resume_title"><i class="fas fa-book-open"></i> Education</h2>
-                    <div class="resume_box">
-                        <span class="resume_date">2022</span>
-                        <p class="resume_box_title">Python and Data Analytics</p>
-                        <p class="resume_company">Savvy Coders</p>
-                        <p class="resume_text">A 12 week accelerated bootcamp focusing on Python, and Data Analytics, utilizing Coursera, Tableau, and other data visualization applications.
-                        </p>
-                    </div>
-
-
-                    <div class="resume_box">
-                        <span class="resume_date">2021-2022</span>
-                        <p class="resume_box_title">Full Stack Web Development</p>
-                        <p class="resume_company">Launchcode 101</p>
-                        <p class="resume_text">Immersive and challenging web development course for individuals wishing to pursue a career in the Tech industry.
-                        </p>
-                    </div>
-
-                    <div class="resume_box">
-                        <span class="resume_date">2010</span>
-                        <p class="resume_box_title">Political Science</p>
-                        <p class="resume_company">University of Missouri</p>
-                    </div>
-
-                    <div class="resume_box">
-                        <span class="resume_date">1993</span>
-                        <p class="resume_box_title">Culinary Arts</p>
-                        <p class="resume_company">Johnson County Community College</p>
-
-                    </div>
-                </div>
-
+                </p>
             </div>
+            <div class="about_profile">
 
-            <h2 class="title">My <span>Skills</span></h2>
-            <hr class="line">
-            <!-- Skill Container -->
-            <div class="resume_container">
-                <div class="left_resume">
-                    <h2 class="resume_title"><i class="fas fa-pencil-ruler"></i>Frameworks and Tools</h2>
-                    <div class="skill_box">
-                        <div class="skill_box">
-                            <h2 class="skill_title">Tableau</h2>
-                            <div class="skill_line_container">
-                                <div class="skill_line" style="width: 50%;"></div>
-                            </div>
-                        </div>
+                <ul class="right_profile">
+                    <li><span class="profile_title">Profession</span><span>Web Developer and Data Analytics</span></li>
+                    <li><span class="profile_title">Address</span><span>Kansas City, MO</span></li>
+                    <li><span class="profile_title">Email</span><span>daileyj72@gmail.com</span></li>
 
-                        <h2 class="skill_title">React</h2>
-                        <div class="skill_line_container">
-                            <div class="skill_line" style="width: 30%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill_box">
-                        <h2 class="skill_title">Express</h2>
-                        <div class="skill_line_container">
-                            <div class="skill_line" style="width: 25%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill_box">
-                        <h2 class="skill_title">Angular</h2>
-                        <div class="skill_line_container">
-                            <div class="skill_line" style="width:20%;"></div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="right_resume">
-                    <h2 class="resume_title"><i class="fas fa-code"></i> Coding</h2>
-                    <div class="skill_box">
-                        <h2 class="skill_title">Python</h2>
-                        <div class="skill_line_container">
-                            <div class="skill_line" style="width: 30%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill_box">
-                        <h2 class="skill_title">JavaScript</h2>
-                        <div class="skill_line_container">
-                            <div class="skill_line" style="width: 50%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill_box">
-                        <h2 class="skill_title">Java</h2>
-                        <div class="skill_line_container">
-                            <div class="skill_line" style="width: 30%;"></div>
-                        </div>
-                    </div>
-
-                    <div class="skill_box">
-                        <h2 class="skill_title">HTML5/CSS3</h2>
-                        <div class="skill_line_container">
-                            <div class="skill_line" style="width: 55%;"></div>
-                        </div>
-                    </div>
-                </div>
+                </ul>
             </div>
         </div>
     </div>
-</div>
-
-
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
